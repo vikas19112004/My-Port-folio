@@ -65,3 +65,21 @@
     background-color: rgb(70, 70, 70);
 }
 
+@media (max-width: 600px) {
+    .Header {
+        flex-direction: column;
+        height: 5rem;
+        align-items: center;
+        position: sticky;
+    }
+
+    .myName {
+        margin-left: 0px;
+    }
+
+    .headerButtons {
+        gap: 0.7rem;
+        margin-right: 0px;
+        font-size: 13px;
+    }
+}

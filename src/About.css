@@ -22,3 +22,15 @@
 .about p span {
     color: rgb(255, 157, 95);
 }
+
+@media (max-width: 600px) {
+    .about {
+        padding: 2rem 3rem;
+    }
+
+    .about p {
+        margin: 0.5rem 0 0 1rem;
+        font-size: 13px;
+        line-height: 1rem;
+    }
+}

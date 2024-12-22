@@ -4,7 +4,7 @@ function PastExperience() {
     return (
         <div className="pastExperience" id="Past">
             <hr />
-            <p className="my-4 ml-24 text-lg font-semibold">Work Experience</p>
+            <p className="mt-8 justify-self-center text-lg font-semibold">Work Experience</p>
             <div className="cloudafe">
                 <a href="https://cloudafe.in/"><img src="./src/assets/cloudafe.jpeg" alt="image" /></a>
                 <hr />

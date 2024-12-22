@@ -50,3 +50,9 @@
     width: 9rem;
     line-height: 0.8rem;
 }
+
+@media (max-width: 600px) {
+    .cloudafe {
+        padding: 3rem 0rem;
+    }
+}

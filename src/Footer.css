@@ -94,3 +94,29 @@
     padding: 0.08rem 0.14rem 0.08rem 0.15rem;
     font-size: 1.3rem;
 }
+
+@media (max-width: 600px) {
+    .footer {
+        padding: 2rem 2rem 0.1rem 2rem;
+    }
+
+    .footerDiv1 {
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+
+    .footerDiv1 div {
+        display: flex;
+        flex-direction: row;
+        gap: 1.3rem;
+        text-decoration: underline;
+    }
+
+    .footer hr {
+        width: 100%;
+        border: none;
+        margin-top: 1rem;
+    }
+}
